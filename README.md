@@ -103,4 +103,19 @@ MIT License — free for personal or commercial use.
 - Great for managing research, to-do reading lists, and keeping your workspace tidy.
 
 ---
+---
 
+## 🔮 Planned Features / Future Updates
+
+- 🌐 **Cross-browser Support**
+  - Ensure compatibility with Firefox and Edge using WebExtension APIs.
+- 📦 **Export & Import Tabs**
+  - Allow users to export their saved tabs to a JSON file and import them later.
+- 🧹 **Auto-Cleanup Option**
+  - Option to automatically remove tabs that haven’t been accessed in X days.
+- 🗂️ **Tab Grouping**
+  - Let users categorize or tag tabs (e.g. “Work”, “Reading”, “Later”).
+- 🔁 **Sync Across Devices**
+  - Use `chrome.storage.sync` for optional syncing with Chrome accounts.
+- 🎨 **Dark Mode**
+  - Add a toggleable dark theme for the popup UI.
