@@ -18,10 +18,15 @@
 
 TabManageer/
 ├── manifest.json # Extension configuration
+
 ├── popup.html # HTML UI for the popup
+
 ├── popup.js # JavaScript logic
+
 ├── styles.css # (Optional) CSS styling
+
 └── README.md # Project documentation
+
 
 
 
