@@ -1,0 +1,17 @@
+{
+    "name": "Tabs Manager",
+    "description": "Add and delete Tabs",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.jpeg"
+    },
+    "permissions": [
+        "tabs",
+        "storage"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ]
+}

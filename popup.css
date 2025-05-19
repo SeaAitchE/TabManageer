@@ -1,0 +1,116 @@
+/* Reset and global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+  padding: 10px;
+  font-size: 14px;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+h1 {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+/* Add tab button */
+button#addtabs {
+  background-color: #3498db;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+button#addtabs:hover {
+  background-color: #2980b9;
+}
+
+button#addtabs:focus {
+  outline: none;
+}
+
+/* Saved Tabs Heading */
+p {
+  font-size: 14px;
+  color: #7f8c8d;
+  text-align: center;
+  margin: 10px 0 5px;
+}
+
+/* List container */
+ul {
+  list-style: none;
+  padding: 0;
+  overflow-y: auto;
+  max-height: 280px;
+}
+
+/* Each list item */
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  min-height: 50px;
+}
+
+/* Link inside list */
+li a {
+  color: #3498db;
+  text-decoration: none;
+  font-size: 12px;
+  flex-grow: 1;
+  margin-right: 10px;
+  overflow: hidden;
+  white-space: normal;
+  text-overflow: ellipsis;
+  line-height: 1.2em;
+  max-height: 2.4em;
+}
+
+/* Delete button inside list — styled to match tab */
+button.delete {
+  background-color: #f9f9f9;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  width: 60px;
+  height: 30px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button.delete:hover {
+  background-color: #e0e0e0;
+}
+
+button.delete:focus {
+  outline: none;
+}
