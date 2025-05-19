@@ -17,6 +17,7 @@
 ## 📁 Project Structure
 
 TabManageer/
+
 ├── manifest.json # Extension configuration
 
 ├── popup.html # HTML UI for the popup
